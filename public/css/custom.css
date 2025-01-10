@@ -1,0 +1,304 @@
+* {
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* color: #006786e0; */
+    /* background-color: rgb(197, 197, 197); */
+}
+
+/* .nav-link {
+    color: #006786e0 !important;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: #006786e0 !important;
+} */
+
+.navbar-brand {
+    color: #006786e0 !important;
+    /* Warna teks baru */
+}
+
+.btn-custom {
+    background-color: transparent;
+    /* Initial background color */
+    color: #006786e0;
+    /* Initial text color */
+    border: none;
+    /* Remove border */
+    transition: background-color 0.3s, color 0.3s;
+    /* Smooth transition */
+}
+
+.btn-custom:hover {
+    background-color: #006786e0;
+    /* Change background on hover */
+    color: white;
+    /* Change text color on hover */
+    border: none;
+    /* Optional: Keep border none or add border if needed */
+}
+
+.nav-link {
+    color: #006786e0;
+    /* Initial text color */
+    transition: color 0.3s, background-color 0.3s;
+    /* Smooth transition */
+    padding: 7px 12px;
+    /* Add some padding for better appearance */
+    border-radius: 7px;
+    /* Optional: Add border radius */
+}
+
+.nav-link:hover {
+    color: white;
+    /* Change text color to white on hover */
+    background-color: #006786e0;
+    /* Change background color on hover */
+}
+
+.nav-link.active {
+    color: white;
+    /* Text color when active */
+    background-color: #006786e0;
+    /* Background color when active */
+}
+
+/* dropwown */
+.dropdown-toggle {
+    background-color: #003a46;
+    /* Desired background color */
+    border: none;
+    /* Remove border if needed */
+    color: white;
+    /* Set text color to white */
+}
+
+.dropdown-toggle:focus,
+/* Prevent color change on focus */
+.dropdown-toggle:active {
+    /* Prevent color change on active */
+    background-color: #003a46;
+    /* Keep the same background color */
+    color: white;
+    /* Keep the text color white */
+}
+
+.dropdown-menu {
+    background-color: #003a46;
+    /* Desired dropdown menu background color */
+}
+
+.dropdown-item {
+    color: white;
+    /* Change text color of dropdown items */
+}
+
+.dropdown-item.active,
+/* Active item */
+.dropdown-item:focus {
+    /* Focused item */
+    background-color: #003a46;
+    /* Keep the same background color */
+    color: white;
+    /* Ensure text color remains white */
+}
+
+main {
+    background-color: rgba(255, 253, 253, 0.744);
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+/* .icon-nav {
+    position: relative;
+    color: #FFFFFF8C;
+}
+.icon-nav:hover {
+    color: white;
+} */
+
+
+.fa-bag-shopping {
+    font-size: 24px;
+    color: #006786e0;
+}
+
+.fa-bag-shopping:hover {
+    color: rgba(255, 255, 255, 0.867);
+}
+
+section {
+    min-height: 80vh;
+}
+
+/* style footer */
+footer {
+    position: static;
+    bottom: 0;
+    background-color: #ffffff;
+    color: #006786e0;
+}
+
+/* sidebar */
+/* .sidebar {
+    position: fixed;
+    width: 250px;
+    height: 97vh;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: white;
+}
+
+.sidebar li {
+    list-style: none;
+    padding: 10px 5px;
+}
+
+.sidebar li:hover {
+    background-color: rgba(217, 217, 217, 0.518);
+    border-radius: 10px;
+    margin: 0;
+}
+
+.sidebar h5 {
+    font-size: 24px;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+} */
+
+/* styles.css */
+.sidebar {
+    background-color: #006786;
+    /* Warna latar belakang sidebar */
+    color: white;
+    /* Warna teks */
+    height: 100vh;
+    /* Tinggi sidebar penuh */
+    padding: 20px;
+    /* Padding untuk sidebar */
+    position: fixed;
+    /* Memastikan sidebar tetap di tempat */
+    overflow-y: auto;
+    /* Scroll jika konten melebihi tinggi */
+}
+
+.sidebar .navbar-brand2 {
+    font-size: 1.5rem;
+    /* Ukuran font untuk judul */
+    margin-bottom: 20px;
+    /* Jarak bawah untuk judul */
+    
+}
+
+.sidebar .navbar-item {
+    transition: background-color 0.3s, transform 0.3s;
+    /* Transisi halus saat hover */
+}
+
+.sidebar .navbar-item:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    /* Warna latar belakang saat hover */
+    transform: scale(1.02);
+    /* Efek zoom saat hover */
+}
+
+.sidebar .navbar-item.active {
+    background-color: rgba(255, 255, 255, 0.3);
+    /* Warna latar belakang untuk item aktif */
+}
+
+.sidebar .navbar-item .material-icons {
+    font-size: 24px;
+    /* Ukuran ikon */
+}
+
+.sidebar .navbar-item p {
+    margin: 0;
+    /* Menghilangkan margin untuk teks */
+}
+
+.sidebar .navbar-item a {
+    text-decoration: none;
+    /* Menghilangkan garis bawah pada tautan */
+    color: white;
+    /* Warna teks tautan */
+}
+
+.sidebar .navbar-item a:hover {
+    color: #006786;
+    /* Warna teks saat hover */
+}
+
+.sidebar .navbar-item:last-child {
+    margin-top: auto;
+    /* Memindahkan logout ke bagian bawah */
+}
+
+/* navbar */
+
+/* styles.css */
+.navbar3 {
+    background-color: #ffffff;
+    /* Warna latar belakang navbar */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* Bayangan untuk navbar */
+    padding: 10px 20px;
+    /* Padding untuk navbar */
+}
+
+.breadcrumb {
+    background-color: transparent;
+    /* Menghilangkan latar belakang breadcrumb */
+}
+
+.breadcrumb-item a {
+    color: #006786;
+    /* Warna tautan breadcrumb */
+    text-decoration: none;
+    /* Menghilangkan garis bawah pada tautan */
+}
+
+.breadcrumb-item a:hover {
+    text-decoration: underline;
+    /* Garis bawah saat hover */
+}
+
+.icon-notif {
+    color: #006786;
+    /* Warna ikon notifikasi */
+    font-size: 24px;
+    /* Ukuran ikon notifikasi */
+}
+
+.icon-notif .material-icons {
+    font-size: 24px;
+    /* Ukuran ikon */
+}
+
+.user-info {
+    color: #006786;
+    /* Warna teks untuk informasi pengguna */
+}
+
+.user-info p {
+    margin: 0;
+    /* Menghilangkan margin untuk teks */
+}
+
+.user-info .name {
+    font-weight: 700;
+    /* Menebalkan nama pengguna */
+    font-size: 14px;
+    /* Ukuran font untuk nama pengguna */
+}
+
+.user-info .email {
+    font-size: 12px;
+    /* Ukuran font untuk email pengguna */
+}
